@@ -23,7 +23,7 @@
             <div class="nav_links">
                 <ul>
                     <li>
-                        <a href="/aboutme">Acerca de mi</a>
+                        <a href="/aboutme">Acerca de</a>
                         <a href="">Cursos</a>
                         <a href="">Proyectos</a>
                         <a href="/contactme">Contacto</a>
@@ -31,8 +31,8 @@
                 </ul>
             </div>
             <div class="social-icons">
-                <div role="button" class="custom_Icon"><i class="fa-brands fa-linkedin" style="color: white;"></i></div>
-                <div role="button" class="custom_Icon"><i class="fa-brands fa-square-github" style="color: white;"></i></div>
+                <a href="https://www.linkedin.com/in/manuelhquiroga" target="_blank" role="button" class="custom_Icon"><i class="fa-brands fa-linkedin" style="color: white;"></i></a>
+                <a href="https://github.com/ManuelQuiroga03" target="_blank" role="button" class="custom_Icon"><i class="fa-brands fa-square-github" style="color: white;"></i></a>
                 <div role="button" class="custom_Icon" on:click={toggle}>
                     {#if mode === 'S'}
                         <i class="fa-regular fa-sun" style="color: white;"></i>

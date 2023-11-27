@@ -1,14 +1,14 @@
 <!-- Portafolio.svelte -->
 <script>
-  
-  import { Router, Route } from 'svelte-routing';
+	import { Router, Route } from 'svelte-routing';
 	import Aboutme from './Content/aboutme.svelte';
 	import Navbar from './Header/navbar.svelte';
 	import Footer from './Footer/footer.svelte';
 	import Contentme from './Content/contentme.svelte';
-  import Contactme from './Content/contactme.svelte';
+	import Contactme from './Content/contactme.svelte';
 
-  export let url = '';
+
+	export let url = '';
 
 </script>
 
@@ -16,14 +16,13 @@
 	<div class="">
 		<div class="contenedor">
 			<div class="navbar-container">
-        <Navbar></Navbar>
-      </div>
-      <Router url= "{url}">
-        <Route path=''><Contentme/></Route>
-        <Route path='/aboutme'><Aboutme/></Route>
-        <Route path='/contactme'><Contactme/></Route>
-      </Router>
-		
+				<Navbar></Navbar>
+			</div>
+			<Router url= "{url}">
+				<Route path=''><Contentme/></Route>
+				<Route path='/aboutme'><Aboutme/></Route>
+				<Route path='/contactme'><Contactme/></Route>
+			</Router>
 			<Footer></Footer>
 		</div>
 	</div>
