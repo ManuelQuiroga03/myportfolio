@@ -55,7 +55,7 @@
             </div>
         </div>
     </div>
-    <div class="">
+    <!-- <div class="">
         <div class="text-center mt-4 mb-4">
             <h3><span>Mis Proyectos</span></h3>
         </div>
@@ -81,7 +81,7 @@
                 <p>Descripción breve del Proyecto 2.</p>
             </div>
         </div>
-    </div>
+    </div> -->
 </div>
 
 <style>
@@ -125,6 +125,10 @@
         border: 1px solid #ccc;
         border-radius: 8px;
         padding: 20px;
+        cursor: pointer;
+    }
+    .card:hover{
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     }
     .card img {
         width: 100%; 

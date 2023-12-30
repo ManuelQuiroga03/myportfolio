@@ -6,6 +6,7 @@
 	import Footer from './Footer/footer.svelte';
 	import Contentme from './Content/contentme.svelte';
 	import Contactme from './Content/contactme.svelte';
+  import Projects from './Content/projects.svelte';
 
 
 	export let url = '';
@@ -22,6 +23,7 @@
 				<Route path=''><Contentme/></Route>
 				<Route path='/aboutme'><Aboutme/></Route>
 				<Route path='/contactme'><Contactme/></Route>
+				<Route path='/projects'><Projects/></Route>
 			</Router>
 			<Footer></Footer>
 		</div>

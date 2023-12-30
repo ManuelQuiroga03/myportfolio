@@ -24,8 +24,8 @@
                 <ul>
                     <li>
                         <a href="/aboutme">Acerca de</a>
-                        <a href="">Cursos</a>
-                        <a href="">Proyectos</a>
+                        <a href="/courses">Cursos</a>
+                        <a href="/projects">Proyectos</a>
                         <a href="/contactme">Contacto</a>
                     </li>
                 </ul>
@@ -60,12 +60,6 @@
         margin-right: 15px;
         font-size: 20px;
         font-weight: 600;
-    }
-    button{
-        border-radius: 50%;
-    }
-    button:focus{
-        outline: none;
     }
     .contenedorNav{
         margin-left: auto;

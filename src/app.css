@@ -1,3 +1,11 @@
+:root{
+	--primary-color: #373D20;
+	--secondary-color : #717744;
+	--backgroundLight: #EFF1ED;
+	--backgroundDark: #BCBD8B;
+	--ExtraColor: #766153;
+}
+
 html, body {
 	position: relative;
 	width: 100%;
@@ -5,11 +13,12 @@ html, body {
 }
 
 body {
-  background-color: #FFFFFF;
+	background-color: #FFFFFF;
 	color: #333;
 	margin: 0;
 	box-sizing: border-box;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
 }
 
 a {
